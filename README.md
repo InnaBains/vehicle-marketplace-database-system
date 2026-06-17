@@ -1,2 +1,264 @@
-# vehicle-marketplace-database-system
-A fully normalised MySQL database system for a second-hand vehicle marketplace, featuring EER modelling, 3NF normalisation, TPT inheritance, SQL views, stored procedures, triggers, indexing, and business rule enforcement.
+# 🚗 Vehicle Marketplace Database System
+
+> **A Fully Normalised MySQL Database Solution for a Second-Hand Vehicle Marketplace**
+
+![Database](https://img.shields.io/badge/Database-MySQL-blue?style=for-the-badge&logo=mysql)
+![SQL](https://img.shields.io/badge/SQL-Advanced-orange?style=for-the-badge)
+![Normalisation](https://img.shields.io/badge/3NF-Normalised-success?style=for-the-badge)
+![Academic Project](https://img.shields.io/badge/BSc-Computing-green?style=for-the-badge)
+
+---
+
+## 📖 Project Overview
+
+The Vehicle Marketplace Database System is a relational database solution developed for a second-hand vehicle marketplace.
+
+The project demonstrates professional database design principles through the implementation of:
+
+- Relational database modelling
+- Third Normal Form (3NF) normalisation
+- Table Per Type (TPT) inheritance
+- Foreign key constraints
+- Indexing and query optimisation
+- SQL Views
+- Stored Procedures
+- Triggers
+- Business rule enforcement
+
+The system supports user management, vehicle listings, order processing, shipping management, and personalised search functionality.
+
+---
+
+## ✨ Key Features
+
+### 👤 User Management
+- Buyer and seller profiles
+- User role management
+- Contact information storage
+- Data integrity validation
+
+### 🚗 Vehicle Listings
+- Vehicle inventory management
+- Multiple vehicle categories
+- Car, Motorbike, and Van support
+- Vehicle ownership tracking
+
+### 🛒 Order Processing
+- Vehicle purchase management
+- Order status tracking
+- Transaction recording
+- Sales management
+
+### 📦 Shipping Management
+- Delivery information storage
+- Tracking number support
+- Shipping status management
+
+### 🔍 Saved Search Preferences
+- User-specific search filters
+- Saved vehicle searches
+- Personalised marketplace experience
+
+### ⚡ Database Optimisation
+- Non-key indexing
+- Query performance improvements
+- Efficient reporting support
+
+---
+
+## 🏗️ Database Architecture
+
+The system follows a fully normalised relational database design.
+
+### Core Entities
+
+- User
+- Vehicle
+- Car
+- Motorbike
+- Van
+- Order
+- Shipping
+- SearchFilter
+
+### Design Principles
+
+- Third Normal Form (3NF)
+- Referential Integrity
+- Foreign Key Constraints
+- Controlled Denormalisation
+- Table Per Type (TPT) Inheritance
+- Query Optimisation
+
+---
+
+## 🧩 Entity Relationship Model
+
+### Enhanced Entity Relationship Diagram (EERD)
+
+![EERD](assets/eerd-diagram.png)
+
+The database uses Crow's Foot notation and implements a Table Per Type inheritance strategy to separate common vehicle attributes from subtype-specific attributes.
+
+---
+
+## 🚗 Vehicle Inheritance Structure
+
+```text
+Vehicle
+│
+├── Car
+│   ├── NumDoors
+│   └── FuelType
+│
+├── Motorbike
+│   └── EngineCC
+│
+└── Van
+    ├── CargoVolume
+    └── MaxLoad
+```
+
+---
+
+## 📊 Database Schema
+
+![Database Schema](assets/database-schema.png)
+
+The schema was designed to maintain data integrity while supporting scalability and future expansion.
+
+---
+
+## ⚙️ Advanced SQL Components
+
+### Views
+
+#### ActiveOrdersSummary
+
+Provides a simplified view of active marketplace orders.
+
+![Active Orders View](assets/view-active-orders.png)
+
+---
+
+#### UserSearchFilterStats
+
+Displays saved search statistics by user.
+
+![Search Statistics View](assets/view-user-search.png)
+
+---
+
+### Stored Procedures
+
+The system includes stored procedures for:
+
+- Order creation and validation
+- Vehicle filtering
+- Business logic enforcement
+- Automated transaction handling
+
+![Stored Procedures](assets/stored-procedures.png)
+
+---
+
+### Trigger
+
+A trigger was implemented to enforce business rules and validate data before insertion.
+
+![Trigger](assets/trigger-overview.png)
+
+---
+
+## 🚀 Technologies Used
+
+| Technology | Purpose |
+|------------|----------|
+| MySQL | Database Management System |
+| SQL | Database Development |
+| phpMyAdmin | Database Administration |
+| Draw.io | EERD Design |
+| Crow's Foot Notation | Database Modelling |
+
+---
+
+## 📁 Project Structure
+
+```text
+vehicle-marketplace-database-system/
+│
+├── README.md
+├── LICENSE
+│
+├── assets/
+│   ├── eerd-diagram.png
+│   ├── database-schema.png
+│   ├── view-active-orders.png
+│   ├── view-user-search.png
+│   ├── stored-procedures.png
+│   ├── trigger-overview.png
+│   └── database-structure.png
+│
+└── sql/
+    ├── create_tables.sql
+    ├── sample_data.sql
+    ├── views.sql
+    ├── stored_procedures.sql
+    └── trigger.sql
+```
+
+---
+
+## 📈 Learning Outcomes Demonstrated
+
+This project demonstrates practical experience in:
+
+- Database Design
+- Relational Modelling
+- SQL Development
+- Database Normalisation
+- Data Integrity Management
+- Query Optimisation
+- Stored Procedures
+- Trigger Development
+- Database Security Principles
+- Business Rule Implementation
+
+---
+
+## 🎓 Academic Context
+
+This project was developed as part of the:
+
+**BSc (Hons) Computing**  
+**Arden University**
+
+Module:
+
+**Advanced Databases**
+
+---
+
+## 👩‍💻 Author
+
+### Inna Bains
+
+Computing Graduate specialising in:
+
+- Software Development
+- Database Systems
+- Cloud Technologies
+- Systems Analysis
+- Data-Driven Applications
+
+### Connect With Me
+
+- LinkedIn: www.linkedin.com/in/inna-bains-0aa890264
+- GitHub: https://github.com/InnaBains
+
+---
+
+## 📄 License
+
+This project is provided for educational and portfolio purposes.
+
