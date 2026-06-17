@@ -7,6 +7,11 @@
 ![Normalisation](https://img.shields.io/badge/3NF-Normalised-success?style=for-the-badge)
 ![Academic Project](https://img.shields.io/badge/BSc-Computing-green?style=for-the-badge)
 
+## 🔗 Portfolio
+
+**Portfolio Website:** https://innabains.github.io/professional-portfolio/
+
+**Project Showcase:** Vehicle Marketplace Database
 ---
 
 ## 📖 Project Overview
@@ -26,6 +31,13 @@ The project demonstrates professional database design principles through the imp
 - Business rule enforcement
 
 The system supports user management, vehicle listings, order processing, shipping management, and personalised search functionality.
+
+---
+## Repository Purpose
+
+This repository serves as a public portfolio showcase of the database design and implementation work completed during my BSc (Hons) Computing degree.
+
+The repository demonstrates database analysis, logical design, physical implementation, SQL programming, and relational database development using MySQL.
 
 ---
 
@@ -89,6 +101,28 @@ The system follows a fully normalised relational database design.
 - Controlled Denormalisation
 - Table Per Type (TPT) Inheritance
 - Query Optimisation
+
+---
+
+## Project Highlights
+
+✔ Complete relational database design
+
+✔ Fully normalised to Third Normal Form (3NF)
+
+✔ EER model created in MySQL Workbench
+
+✔ Custom SQL Views
+
+✔ Stored Procedures
+
+✔ Trigger Implementation
+
+✔ Business Rule Enforcement
+
+✔ Sample Marketplace Dataset
+
+✔ Professional Database Documentation
 
 ---
 
@@ -209,20 +243,20 @@ vehicle-marketplace-database-system/
 
 ---
 
-## 📈 Learning Outcomes Demonstrated
+## 🎓 Skills Demonstrated
 
 This project demonstrates practical experience in:
 
 - Database Design
-- Relational Modelling
+- EER Modelling
+- Database Normalisation (3NF)
 - SQL Development
-- Database Normalisation
-- Data Integrity Management
-- Query Optimisation
+- Views
 - Stored Procedures
-- Trigger Development
-- Database Security Principles
-- Business Rule Implementation
+- Triggers
+- Relational Database Design
+- Database Documentation
+- Systems Analysis
 
 ---
 
@@ -241,20 +275,18 @@ Module:
 
 ## 👩‍💻 Author
 
-### Inna Bains
+Inna Bains
 
-Computing Graduate specialising in:
+BSc (Hons) Computing Graduate
 
-- Software Development
-- Database Systems
-- Cloud Technologies
-- Systems Analysis
-- Data-Driven Applications
+Portfolio:
+https://innabains.github.io/professional-portfolio/
 
-### Connect With Me
+GitHub:
+https://github.com/InnaBains
 
-- LinkedIn: www.linkedin.com/in/inna-bains-0aa890264
-- GitHub: https://github.com/InnaBains
+LinkedIn:
+https://www.linkedin.com/in/inna-bains-0aa890264
 
 ---
 
