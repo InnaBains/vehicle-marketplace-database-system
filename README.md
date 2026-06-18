@@ -288,6 +288,9 @@ https://github.com/InnaBains
 LinkedIn:
 https://www.linkedin.com/in/inna-bains-0aa890264
 
+Email:
+[innessyk@gmail.com](mailto:innessyk@gmail.com) 
+
 ---
 
 ## 📄 License
